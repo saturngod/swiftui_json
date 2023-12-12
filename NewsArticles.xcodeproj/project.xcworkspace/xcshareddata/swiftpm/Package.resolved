@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "attributedtext",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Iaenhaall/AttributedText.git",
+      "state" : {
+        "revision" : "26a8be0285d664449e352d0e9b1b4a79ee9cecba",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "revision" : "277f1ab2c6664b19b4a412e32b094b201e2d5757",
+        "version" : "7.10.0"
+      }
+    }
+  ],
+  "version" : 2
+}
