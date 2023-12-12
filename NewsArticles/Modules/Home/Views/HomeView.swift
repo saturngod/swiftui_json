@@ -21,8 +21,6 @@ struct HomeView: View {
                     List(viewModel.articles,id:\.self){ article in
                         
                         ZStack {
-                            //LinktoArticle(detailViewModel: viewModel)
-                            
                             
                             FeedView(title: article.title, source: article.source.name, time: article.publishedAt.ago(), imageUrl: article.urlToImage ?? "", author: article.author ?? "N/A")
                                 .onTapGesture(perform: {

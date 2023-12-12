@@ -33,6 +33,8 @@
 		655838392B19537000609C67 /* AttributedText in Frameworks */ = {isa = PBXBuildFile; productRef = 655838382B19537000609C67 /* AttributedText */; };
 		6558383B2B1955BF00609C67 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6558383A2B1955BF00609C67 /* DetailViewModel.swift */; };
 		6558383D2B195C7400609C67 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6558383C2B195C7400609C67 /* WebView.swift */; };
+		657D7F652B28DD8600DFE1B7 /* ModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D7F642B28DD8600DFE1B7 /* ModelTest.swift */; };
+		657D7F662B28E8CB00DFE1B7 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6558383A2B1955BF00609C67 /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,7 @@
 		655838352B193F4200609C67 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		6558383A2B1955BF00609C67 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		6558383C2B195C7400609C67 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		657D7F642B28DD8600DFE1B7 /* ModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,7 @@
 				655838242B19325200609C67 /* HomeViewModelTest.swift */,
 				6558382B2B193AAB00609C67 /* articles.json */,
 				6558382D2B193D8E00609C67 /* ExtensionTest.swift */,
+				657D7F642B28DD8600DFE1B7 /* ModelTest.swift */,
 			);
 			path = NewsArticlesTests;
 			sourceTree = "<group>";
@@ -419,9 +423,11 @@
 				6558382A2B1932AA00609C67 /* Article.swift in Sources */,
 				6558382E2B193D8E00609C67 /* ExtensionTest.swift in Sources */,
 				655838292B1932AA00609C67 /* NewsFeed.swift in Sources */,
+				657D7F662B28E8CB00DFE1B7 /* DetailViewModel.swift in Sources */,
 				6558382F2B193EDC00609C67 /* Extensions.swift in Sources */,
 				655838272B1932A100609C67 /* NetworkManager.swift in Sources */,
 				655838262B19327900609C67 /* HomeViewModel.swift in Sources */,
+				657D7F652B28DD8600DFE1B7 /* ModelTest.swift in Sources */,
 				655838282B1932AA00609C67 /* Source.swift in Sources */,
 				655838252B19325200609C67 /* HomeViewModelTest.swift in Sources */,
 			);
